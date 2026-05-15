@@ -38,6 +38,8 @@ file presence, and absence of incomplete markers.
 - Avoid unrelated refactors.
 - For refactoring tasks, follow the dedicated seven-phase workflow in
   `docs/refactoring-policy.md`.
+- Keep Python implementation in a `src/` layout and separate core logic,
+  interfaces, tests, and documentation by responsibility.
 - Preserve public behavior unless the request explicitly changes it.
 - Keep names direct and specific.
 - Remove dead code rather than comment it out.
