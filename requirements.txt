@@ -1,0 +1,2 @@
+# Runtime dependencies for pip-compatible tooling.
+# Source of truth: pyproject.toml [project.dependencies].
